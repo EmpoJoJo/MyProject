@@ -26,6 +26,7 @@ public class Main {
                 } catch (Exception ex) {
                     System.out.println("Invalid grade, Please enter correctly");
                     isDataCorrect = false;
+                    return;
                 }
             }
         System.out.println("Enter your ELA grade in decimal form: ");
